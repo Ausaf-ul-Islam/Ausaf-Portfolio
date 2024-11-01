@@ -75,7 +75,7 @@ window.onscroll = () => {
         // Hide loading screen after 3 seconds
         setTimeout(function() {
             document.getElementById('loading-screen').style.display = 'none';
-        }, 7000);
+        }, 3000);
     });
 
 // FOR SENDING MAIL
