@@ -412,6 +412,21 @@ transform: scale(1.1);
     transform: translateY(-0.50em);
 }
 /* SWEET ALERT */
+/* Custom styles for the loading alert */
+.custom-swal {
+    border: 2px solid #00e9fa; /* Change the ring color here */
+    border-radius: 10px; /* Adjust border radius */
+    box-shadow: 0 4px 20px #00e9fa; /* Optional shadow effect */
+    background-color: #333; /* Change background color */
+    color: #ffffff; /* Change font color */
+}
+
+/* Additional styles for text elements in the popup */
+.custom-swal h2, 
+.custom-swal p {
+    color: #ffffff; /* Change color for header and paragraph text */
+}
+
 /* For Success Alerts */
 .popup {
     padding: 2rem;
@@ -421,10 +436,17 @@ transform: scale(1.1);
     border-radius: 8px;
     box-shadow: 0px 0px 20px #00e9f5; /* shadow */
 }
-.success-icon{
-    color: #00e9f5;
-}
 
+/* Customize the success icon color */
+.swal2-icon.swal2-success {
+    border-color: #00e9fa; /* Change to your desired color */
+}
+.swal2-success-ring{
+    border-color: #00e9fa;
+}
+.swal2-icon.swal2-success [class*="line"] {
+    background-color: #00e9fa; /* Change the color of the checkmark lines */
+}
 .title {
     color: #00e9f5; /* color for the title */
     font-size: 22px;
@@ -461,7 +483,7 @@ transform: scale(1.1);
 }
 
 .title-error {
-    color: #00e9f5; /*  color for the title */
+    color: #dc3545; /*  color for the title */
     font-size: 22px;
     font-weight: bold;
 }
@@ -472,8 +494,8 @@ transform: scale(1.1);
 }
 
 .confirm-button-error {
-    background-color: #dc3545; /*  background for confirm button */
-    box-shadow: 0 0 10px #dc3545;
+    background-color: #00e9f5; /*  background for confirm button */
+    box-shadow: 0 0 10px #00e9f5;
     color: white;
     font-size: 16px;
     padding: 10px 20px;
