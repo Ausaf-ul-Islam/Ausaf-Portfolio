@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Allow: /index.html
+Sitemap: https://ausafulislam-portfolio.vercel.app/sitemap.xml
